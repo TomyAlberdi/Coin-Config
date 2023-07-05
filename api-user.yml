@@ -4,18 +4,18 @@ server:
 ## Microservice info
 info:
   app:
-    name: UserAPI
+    name: api-user
     version: 1.0.0
-    description: UserAPI description
+    description: user microservice
   author: tomyalberdi
   
 ## Spring 
 spring:
   application:
-    name: UserApi
+    name: api-user
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/databasenotas
+    url: jdbc:mysql://localhost:3306/coindatabase
     username: usr
     password: pwd
   jpa:
