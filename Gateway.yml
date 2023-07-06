@@ -11,7 +11,7 @@ spring:
           enabled: true
       routes:
         - id: userRoute
-          uri: lb://UserApi
+          uri: lb://ApiUser
           predicates:
             - Path=/user/**
   main:
