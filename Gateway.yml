@@ -14,6 +14,10 @@ spring:
           uri: lb://ApiUser
           predicates:
             - Path=/user/**
+        - id: listRoute
+          uri: lb://ApiList
+          predicates:
+            - Path=/list/**
   main:
     allow-bean-definition-overriding: true
 
