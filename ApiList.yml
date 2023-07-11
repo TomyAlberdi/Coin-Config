@@ -82,7 +82,7 @@ resilience4j:
           - java.io.IOException
           - java.net.SocketTimeoutException
       instances:
-        retryNote:
+        retryItem:
           base-config: default
           max-retry-attempts: 5
           wait-duration: 2s
